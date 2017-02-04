@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="48dp"
+    android:layout_marginLeft="48dp"
+    android:layout_gravity="center"
+    android:padding="8dp"
+    android:background="#b40250ea">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="About Dev!"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#fbfbfc"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/title"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:text="\n This App is Developed by \n\n Sai Tawng Pha \n\n (~_~)"/>
+
+
+</RelativeLayout>
